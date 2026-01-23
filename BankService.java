@@ -27,9 +27,9 @@ public class BankService {
 
     // Main method to test
     public static void main(String[] args) {
-        BankService account = new BankService(1000);
-        account.deposit(500);
-        account.withdraw(200);
+        BankService account = new BankService(1500);
+        account.deposit(300);
+        account.withdraw(250);
         System.out.println("Final Balance: " + account.getBalance());
     }
 }
